@@ -1,0 +1,8 @@
+-Pixels = Representatividade (px)
+-Porcentagem= Relativo a Porcentagem do tamanho da tela.
+-Em = Relativo ao elemento Pai.
+-Rem = Pega na Raiz 
+
+
+-VW - representam 1% da tela do  dispositivo 
+-VH - representam 1% da tela do dispositivo
