@@ -1,4 +1,5 @@
 -Pixels = Representatividade (px)
+-Não pode faltar o view-port 
 -Porcentagem= Relativo a Porcentagem do tamanho da tela.
 -Em = Relativo ao elemento Pai.
 -Rem = Pega na Raiz 
@@ -6,3 +7,4 @@
 
 -VW - representam 1% da tela do  dispositivo 
 -VH - representam 1% da tela do dispositivo
+- criar break points (consultar slides)@media max-width or min
