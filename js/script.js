@@ -31,7 +31,7 @@ console.log(nome1);*/
 
 //Declaração de um ARRAY e seus métodos
 //banana na primeira posição mas no indice 0
-let frutas = ["banana", "maça", "laranja", "morango", "uva", "amora", "cereja", "abacaxi"];
+//let frutas = ["banana", "maça", "laranja", "morango", "uva", "amora", "cereja", "abacaxi"];
 
 //console.log(frutas)
 //console.log(frutas[7])
@@ -79,7 +79,29 @@ console.log(`Elemento no índice após a remoção: ${frutas[indice]}`);
 console.table(frutas)*/
 
 
-frutas.forEach((fruta) => {
-    console.log("FRUTA DA VEZ: " + fruta)
+//frutas.forEach((fruta) => {
+    //console.log("FRUTA DA VEZ: " + fruta)
 
+//});
+
+let nr1 = [1,2,3,4,5];
+let nr2 = [6,7,8,9,10];
+console.log(nr1);
+console.log(nr2);
+
+//concatenando arrays em um novo array.
+//let nr3 = [nr1,nr2];
+//console.log("NOVO ARRAY: " + nr3);
+
+
+//concatenando arrays em um novo array com operador SPREAD(...);
+let nr3 = [...nr1,...nr2];
+console.log("NOVO ARRAY: " + nr3);
+
+//imprimindo o novo array com forEach
+nr3.forEach((nr)=>{
+    //nr.forEach((nr)=>{
+    console.log("ITENS DO NOVO ARRAY: " + nr);
 });
+
+
